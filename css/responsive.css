@@ -1,0 +1,389 @@
+@media(max-width: 1200px) {
+    .free__title::after,
+    .free__for::after {
+        transform: scale(0.7);
+    }
+
+    h2 {
+        font-size: 30px;
+        margin: 0 0 25px;
+    }
+
+    .banner__wrapper {
+        padding: 90px 0 120px;
+    }
+
+    .banner__messange {
+        bottom: -85px;
+    }
+
+    .service {
+        padding: 150px 20px 0
+    }
+
+    .service__title {
+        text-align: center;
+    }
+
+    .analytics  {
+        padding: 120px;
+    }
+
+    .footer__nav-list li {
+        margin-right: 35px;
+    }
+
+    .footer__links {
+        padding: 15px 0 0;
+    }
+
+    .footer__list-phone li {
+        padding: 0;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 992px) {
+    .free__title::after,
+    .free__for::after {
+        display: none;
+    }
+
+    .header {
+        height: 60px
+    }
+
+    .header__nav,
+    .header__enter {
+        display: none;
+    }
+
+    .header__wrapper {
+        position: fixed;
+        z-index: 5;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    }
+
+    .banner__wrapper {
+        padding: 120px 0;
+    }
+
+    .analytics  {
+        padding: 60px 0;
+    }
+
+    .analytics__left {
+        display: none;
+    }
+
+    .analytics__content {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .analytics__content-title {
+        text-align: center;
+        margin: 0 0 40px;
+    }
+
+    .analytics__content-text {
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .analytics__buttons {
+        justify-content: space-around;
+    }
+
+    .free {
+        flex-direction: column;
+        padding: 60px 20px;
+    }
+
+    .free__title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .free__brif {
+        display: none;
+    }
+
+    .free__brif--mobile {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .free__for,
+    .free__balans {
+        padding: 0;
+        width: 100%;
+        font-size: 16px;
+        margin: 0 0 20px;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100px;
+        padding: 10px 0 0;
+    }
+
+    .footer__nav-list li {
+        margin-right: 50px;
+    }
+
+    .footer__nav-list li:last-child {
+        margin-right: 0;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .footer__logo {
+        margin: 0 0 15px;
+    }
+
+    .footer__list-phone li {
+        margin-right: 50px;
+    }
+
+    .footer__list-phone {
+        padding: 0;
+        margin: 0 0 20px;
+    }
+
+    .footer__links {
+        justify-content: center;
+    }
+
+    .outer-menu {
+        display: block;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    h2 {
+        font-size: 24px;
+        margin: 0 0 20px;
+    }
+
+    .banner__wrapper {
+        padding: 120px 0 80px;
+    }
+
+    .logo {
+        height: 35px;
+    }
+
+    .banner__title {
+        line-height: 30px;
+        padding: 0;
+    }
+
+    .analytics__content-title {
+        line-height: 30px;
+    }
+    
+    .banner__messange {
+        position: relative;
+        bottom: initial;
+        left: initial;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: 0 0 10px rgba(0,0,0,0);
+        transform: none;
+    }
+
+    .banner__messange::before {
+        display: none;
+    }
+
+    .banner__messange-buttons {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .banner__messange-content {
+        padding: 0 35px;
+        text-align: center;
+        margin: 0 0 45px;
+    }
+
+    .service__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service__elem {
+        padding: 0;
+        width: 80%;
+        margin: 0 0 25px
+    }
+
+    .service__elem-img {
+        margin: 0 0 10px;
+    }
+
+    .service {
+        padding: 60px 20px 0
+    } 
+
+    .service__title {
+        margin: 0 0 30px
+    }
+
+    .analytics {
+        padding: 40px 0;
+    }
+
+    .free {
+        padding: 40px 20px;
+    }
+
+    .footer__nav-list {
+        flex-direction: column;
+    }
+
+    .footer__nav-list li {
+        margin-right: 0;
+        margin: 0 0 20px;
+    }
+
+    .footer__nav {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .footer__list-phone {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .footer__list-phone li {
+        margin-right: 0;
+        margin: 0 0 20px;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__links {
+        padding: 0;
+    }
+
+    .footer__content {
+        padding: 15px 0 0;
+    }
+
+    .footer__bottom-protect,
+    .footer__bottom-politic {
+        text-align: center;
+        font-size: 14px;
+        margin: 0 0 5px;
+    }
+
+    .outer-menu {
+        right: 15%;
+    }
+}
+
+@media(max-width: 480px) {
+
+    h2 {
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .banner__messange-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner__brif {
+        margin: 0 0 35px;
+    }
+
+    .banner__wrapper {
+        padding: 100px 0 40px;
+    }
+
+    .banner__messange-content {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 20px;
+    }
+
+    .service {
+        padding: 40px 20px 0
+    } 
+
+    .service__elem-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .service__elem {
+        width: 90%;
+    }
+
+    .analytics {
+        padding: 20px 0 40px;
+    }
+
+    .analytics__content-title {
+        margin: 0 0 15px;
+    } 
+    
+    .analytics__content-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .analytics__buttons {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .free__title h2 {
+        font-size: 20px;
+        margin: 0 0 15px;
+        line-height: 30px;
+    }
+
+    .free {
+        padding: 40px 20px 0;
+    }
+
+    .free__for,
+    .free__balans {
+        font-size: 14px;
+        margin: 0 0 15px;
+        line-height: 20px;
+    }
+
+    .outer-menu {
+        right: 20%;
+    }
+}
